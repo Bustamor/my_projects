@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: aquamarine;
+}
+
+.pic {
+    border: 2px solid red;
+}
