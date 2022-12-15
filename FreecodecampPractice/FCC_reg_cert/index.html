@@ -7,7 +7,7 @@
   </head>
 <body>
 <h1 id="title">freeCodeCamp Survey Form</h1>
-<p id="description">Thank you for taking the tim to help us improve the platform</p>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
 
 <form id="survey-form">
   <fieldset>
@@ -24,18 +24,48 @@
     <option value="2">Teacher</option>
     <option value="3">Corporate Recruiter</option>
     <option value="4">Other</option>
+  </select>
 </label>
 <p>Would you recommend freeCodeCamp to a friend?</p>
-<label for=""><input type="radio" class="inline" value="1" name="1">definitely</label>
-<label for="d"><input type="radio" class="inline" value="2" name="2">maybe</label> 
-<label for="e"><input type="radio" class="inline" value="3" name="2">not sure</label> 
+<label for=""><input type="radio" class="inline" value="1" name="recommend">definitely</label>
+<label for="d"><input type="radio" class="inline" value="2" name="recommend">maybe</label> 
+<label for="e"><input type="radio" class="inline" value="3" name="recommend">not sure</label> 
   </fieldset>
+<p>What is your favorite feature of freeCodeCamp?</p>
+  <select>
+      <option value="select an option"> (select an option)
+      <option value="Community"> (select an option)
+      <option value="Challenges"> (select an option)
+      <option value="Projects"> (select an option)
+      <option value="Open source"> (select an option)
+
+  </select>
+
 
 
 
   <fieldset>
+    <p>What would  you like to see improved? (Check all that apply)</p>
+    <label>
+    <input id="improved" value="front end projects"type="checkbox" class="inline"/>Front-end Projects <br>
+    <input id="improved" value="back-end-projects"type="checkbox" class="inline"/>Back-end Projects <br>
+    <input id="improved" value="back-end projects" type="checkbox" class="inline"/>Data Visualization <br>
+    <input id="improved" value="challenges" type="checkbox" class="inline"/>Challenges <br>
+    <input id="improved" value="open-source" type="checkbox" class="inline"/>Open Source Community <br>
+    <input id="improved" value="gitter-help-rooms" type="checkbox" class="inline"/>Gitter Help Rooms <br>
+    <input id="improved" value="videos" type="checkbox" class="inline"/>Videos <br>
+    <input id="improved" value="city-meetups" type="checkbox" class="inline"/>City Meetups <br>
+    <input id="improved" value="wiki" type="checkbox" class="inline"/>Wiki <br>
+    <input id="improved" value="forum" type="checkbox" class="inline"/>Forum <br>
+    <input id="improved" value="Additional-Courses" type="checkbox" class="inline"/>Additional Courses <br>
+    </label>
+  </fieldset>
+  <fieldset>
+    <p> Any comments or suggestions?</p>
+    <textarea id="comments" type="textarea" rows="3" cols="30" placeholder="Enter your comments here"></textarea>
   </fieldset>
 
+  <input type="submit" id="submit" value="submit"/>
 
 </form>
 </body>

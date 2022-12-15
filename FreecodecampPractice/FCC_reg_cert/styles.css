@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://toppng.com/public/uploads/preview/cool-backgrounds-hd-11553722971iifbaj3r9n.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-size: 24;
+    text-align: center;
+  }
+  
+  form {
+    background-color: rgb(107, 150, 230);
+    opacity: .7;
+    width: 60vw;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 350px;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+   input,
+    textarea,
+    select {
+      margin: 10px 0 0 0;
+      width: 100%;
+      min-height: 2em;
+    }
+  
+      .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;
+    }
+    
+    input[type="submit"] {
+    background-color: rgb(0, 0, 255);
+    border-color: rgb(255, 215, 0);
+    color: rgb(245, 255, 250);
+    font-size: 1.33rem;
+    min-height: 2.5em;
+    border-radius: 5px;
+  
+  }
