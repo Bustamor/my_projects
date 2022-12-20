@@ -8,3 +8,14 @@
     margin-left: 20px;
     background-color: rgb(140, 247, 247);
 }
+.Navbar{
+    display:flexbox;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main_page {
+    background-color: bisque;
+}
