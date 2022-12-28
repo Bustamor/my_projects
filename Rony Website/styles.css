@@ -2,7 +2,10 @@
     padding:0%;
     margin:0%;
 }
-
+body {
+    background: linear-gradient(90deg, rgb(61, 61, 54), rgb(247, 255, 222));
+    height: 100%;
+}
 .Navbar {
     text-align: left;
     margin-left: 20px;
@@ -17,5 +20,4 @@ h1 {
 }
 
 .main_page {
-    background-color: bisque;
 }
