@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  #main-doc {
+    background: linear-gradient( gray, rgb(17, 17, 126), pink);
+    height: 100%;
+    width: 100%;
+    font-family: 'Baskervville', serif;
+  
+  }
+  
