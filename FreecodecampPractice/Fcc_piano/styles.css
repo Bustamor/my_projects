@@ -6,6 +6,13 @@ html {
     box-sizing: inherit;
   }
   
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, teal, white
+  );
+}
+  
   #piano {
     background-color: #00471b;
     width: 992px;
