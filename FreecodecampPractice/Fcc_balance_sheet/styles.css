@@ -16,6 +16,10 @@ span[class~="sr-only"] {
     box-sizing: border-box;
   }
   
+main {
+  background-color: #070e01;
+}
+
   body {
     font-family: sans-serif;
     color: #0a0a23;
@@ -45,6 +49,7 @@ span[class~="sr-only"] {
     max-width: 40rem;
     margin: 0 auto;
     border: 2px solid #d0d0d5;
+    background-color: rgb(171, 168, 37);
   }
   
   #years {
