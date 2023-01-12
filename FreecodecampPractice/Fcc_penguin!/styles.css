@@ -37,7 +37,7 @@ body {
 .sun {
   width: 200px;
   height: 200px;
-  background-color: yellow;
+  background-color: greenyellow;
   position: absolute;
   border-radius: 50%;
   top: -75px;
