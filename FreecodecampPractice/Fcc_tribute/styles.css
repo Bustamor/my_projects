@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(90deg, rgb(0,150, 50), blue, rgb(54, 22, 22));
+font-size:xx-large;
 }
 
 h1 {
@@ -36,12 +37,36 @@ opacity: .95;
 
   #borg {
 display: block;    
-max-width: 20%;
+max-width: 30%;
 bottom: 10%;
 margin-left: auto;
 padding-right: 50px;
+border-radius: 25%;
+}
+
+#plead {
+  display: block;
+  max-width: 30%;
+  border-radius: 40%;
 }
 
 h2 {
   color: rgb(193, 86, 25)
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(29, 150, 142);
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all .75s ease-in-out;
+  
+}
+
+#tribute-link:hover {
+  color: rgb(47, 47, 196);
+  box-shadow: 0 10px 15px rgba(145, 92, 182, .4);
 }
