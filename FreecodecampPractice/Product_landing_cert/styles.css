@@ -1,0 +1,22 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
