@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(90deg, rgb(0, 150, 50), blue, rgb(54, 22, 22));
   font-size: xx-large;
+  color: orange;
 }
 
 h1 {
@@ -61,8 +62,10 @@ h1 {
 }
 
 h2 {
-  color: rgb(193, 86, 25)
+  color: rgb(193, 86, 25);
+  text-align: center;
 }
+
 
 a {
   text-decoration: none;
@@ -74,6 +77,10 @@ a {
   text-transform: uppercase;
   transition: all .75s ease-in-out;
 
+}
+
+#tribute-ink {
+  align-items: center;
 }
 
 #tribute-link:hover {

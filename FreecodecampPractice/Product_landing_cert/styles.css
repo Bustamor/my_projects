@@ -58,7 +58,7 @@ body {
     position: fixed;
     top: 0;
     left: 20px;
-    background-color:blanchedalmond;
+    background: linear-gradient(45deg, blue, white, red);
     width: 100%;
   }
 
