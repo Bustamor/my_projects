@@ -1,22 +1,85 @@
+
+ 
+body {
+    margin: 100px;
+}
+
 .logo {
     display: flex;
+    height: 39px;
     align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    opacity: .9;
+    justify-items:auto;
+}
+
+.instruments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#guitar {
+    height: 400px;
+    width: 350px;
+}
+
+#keyboard {
+    height: 400px;
+    width: 350px;
+}
+
+#drum {
+    height: 400px;
+    width: 350px;
 }
 
 .icon {
-    height: 30px;
-    width: 30px;
+    height: 48px;
+    opacity: .9;
+    border-radius: 50%;
 }
-
-.header {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .instrument-wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  #nav-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 20px;
+    background-color:blanchedalmond;
+    width: 100%;
+  }
+
+.nav-link {
+    padding: 40px;
 }
 
-nav > ul {
-    width: 35vw;
+  .nav-item {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+    justify-content: space-between;
+    margin: 20px;
+    list-style-type: none;
+  }
+  
+  .vid {
+    margin-top: 50px;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 1400px) {
+    body {
+      background: linear-gradient(90deg, rgb(96, 96, 196), rgb(10,50,200), rgb(255, 255, 255)) ;
+    }
+  }

@@ -7,14 +7,17 @@
     <title>Product Landing Page</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
-<header class="header">
-    <div class="logo">
-        <img class="icon" src="/guitar_icon.png" alt="Randall's House of Vibes">
-        <h3>Randall's House of Vibes</h3>
-    </div> 
 
-    <nav id="nav-bar">
-            <ul>
+<body>
+
+    <header class="header" id="header">
+        <div class="logo">
+            <img class="icon" id="header-img" src="/img/guitar_icon.png" alt="Randall's House of Vibes">
+            <h1>Randall's House of Vibes</h1>
+        </div>
+
+        <nav id="nav-bar">
+            <ul class="nav-item">
                 <li>
                     <a class="nav-link" href="#Guitars">Guitars</a>
                 </li>
@@ -24,9 +27,45 @@
                 <li>
                     <a class="nav-link" href="#Drums">Drums</a>
                 </li>
-                <img src="" alt="">
-    </nav>
-    
-    
+        </nav>
+    </header>
 
-        
+
+    <div class="banner">
+        <h3 class="banner-title">Subscribe to get on our private customer list</h3>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" placeholder="enter email address" type="email" required>
+            <input id="submit" type="submit" value="Sign Up" class="btn">
+        </form>
+    </div>
+    <div class="instrument-wrapper">
+        <section class="instruments" id="Guitars">
+            <h2>Guitars for sale!</h2>
+            <img class="instrument" id="guitar" src="/img/guitar.jpg" />
+            <p>Starting this July we have new and used equipment available. No money down on approved credit or you can
+                put just $10 on layway!
+        </section>
+
+        <section class="instruments" id="Keyboards">
+            <h2>Keyboards for sale!</h2>
+            <img class="instrument" id="keyboard" src="/img/david-pisnoy-UJUgBnemP7o-unsplash.jpg" />
+            <p>Casio, Waldorf, and Rackman on sale now! 64 or 88 key models available for the space you intend. Pedals
+                and silencing headphones included!</p>
+        </section>
+
+        <section class="instruments" id="Drums">
+            <h2 id="Drums">Drums for sale!</h2>
+            <img class="instrument" id="drum" src="/img/Tabla.jpg" />
+            <p>Middle Eastern table, doumbek and sambati available now! Special hand made Egyptian imports just arrived.
+                Limited supply on-hand</p>
+        </section>
+    </div>
+    <h2>Legendary Music</h2>
+    <section class="vid">
+        <a href="https://www.youtube.com/watch?v=HQmmM_qwG4k">Led Zeppelin</a>
+<div></div>
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/HQmmM_qwG4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+        <!-- <iframe id="video" height="315" width="500" frameborder="0"  src="https://www.youtube.com/embed/HQmmM_qwG4k"></iframe> -->
+    </section>
+    <br>
+     </body>
