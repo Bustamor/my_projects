@@ -2,3 +2,19 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background: linear-gradient(120deg, white,green, orange);
+    background-repeat:initial;
+}
+
+#nav-links {
+    display: flex;
+    padding: 40px;
+}
+
+li {
+    list-style-type: none;
+    margin: 40px;
+    
+}
