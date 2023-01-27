@@ -19,4 +19,25 @@
 // const removedFromMyArray = myArray.pop();
 
 // MANIPULATE ARRAYS WITH shift()
+// removes FIRST item
+// // Setup
+// const myArray = [["John", 23], ["dog", 3]];
 
+// // Only change code below this line
+// const removedFromMyArray = myArray.shift();
+
+// MANIPULATE ARRAYS WITH unshift()
+// // // Setup
+// const myArray = [["John", 23], ["dog", 3]];
+// myArray.shift();
+
+// // Only change code below this line
+// myArray.unshift(["Paul", 35]);
+
+// Passing VALUES to FUNCTIONS WITH ARGUMENTS
+// function functionWithArgs(one, two){
+//   console.log(one + two)
+//   };
+//   functionWithArgs(1 , 2);
+//   functionWithArgs(7 , 9);
+  
