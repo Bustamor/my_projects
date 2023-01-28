@@ -41,3 +41,34 @@
 //   functionWithArgs(1 , 2);
 //   functionWithArgs(7 , 9);
   
+// RETURN A VALUE FROM A FUNCTION WITH RETURN
+// function timesFive(num) {
+//   return num * 5;
+// }
+// const answer = timesFive;
+
+// Local SCOPE AND functions
+// function myLocalScope() {
+//   // Only change code below this line
+//   const myVar = "dude"
+//   console.log('inside myLocalScope', myVar);
+// }
+// myLocalScope();
+//   console.log(myVar);
+// // Run and check the console
+// // myVar is not defined outside of myLocalScope
+// console.log('outside myLocalScope', myVar);
+
+// *** ASSIGNMENT WITH A RETURNED VALUE
+// Setup
+// let processed = 0;
+
+// function processArg(num) {
+//   return (num + 3) / 5;
+// }
+
+// // Only change code below this line
+// processArg(7)
+// processed = processArg(7)
+
+// 50%
