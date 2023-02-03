@@ -501,3 +501,65 @@
 
 //   return Math.floor(Math.random() * 10);
 // }
+
+// GENERATE RANDOM WHOLE NUMBERS WITHIN A Range  ???
+// function randomRange(myMin, myMax) {
+//   // Only change code below this line
+//   return Math.floor(Math.random() * (myMax - myMin +1)) + myMin;
+//   // Only change code above this line
+// }
+
+// USE parseINT Function
+// function convertToInteger(str) {
+//   return parseInt(str);
+//   }
+  
+//   convertToInteger("56");
+
+// USE parseInt Function with a Radix
+// function convertToInteger(str) {
+//   return parseInt(str,2);
+//   }
+  
+//   convertToInteger("10011");
+
+// // TERNARY OPERATOR
+// function checkEqual(a, b) {
+//   return a == b ? "Equal"  : "Not Equal";
+//   }
+  
+//   checkEqual(1, 2);
+
+// TERNARY CHAIN
+// function checkSign(num) {
+//   return (num > 0) ?"positive" :(num <0) ? "negative" : "zero";
+//   }
+  
+//   checkSign(10);
+
+// RECURSION FOR COUNTDOWN
+// // Only change code below this line
+// function countdown(n){
+//   if (n < 1) {
+//     return [];
+//   } else {
+//     let array = countdown(n-1);
+//     array.unshift(n)
+//     return array
+//   }
+// }
+
+// // Only change code above this line
+
+
+// RECURSION FINAL EXAMPLE
+// function rangeOfNumbers(startNum, endNum) {
+//   if (endNum < startNum){
+//     return []; 
+//     }   else {
+//        let numbers = rangeOfNumbers(startNum, endNum -1);
+//        numbers.push(endNum);
+//        return numbers;
+//      }
+  
+// };
