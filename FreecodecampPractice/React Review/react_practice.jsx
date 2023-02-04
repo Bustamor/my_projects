@@ -31,7 +31,7 @@
 
 // Looking at UDEMY REVIEW OF deconstruction and ARROW FUNcTIons VS traditional functions
 
-
+// BACK TO FCC
 // Change code below this line
 // class MyComponent extends React.Component {
 //     constructor(props){
@@ -47,3 +47,55 @@
 //   };
 //   ReactDOM.render(<MyComponent/>, document.getElementById("challenge-node"));
   
+// Pass PROPS TO STATELESS FUNCTION
+// const CurrentDate = (props) => {
+//     return (
+//       <div>
+//         { /* Change code below this line */ }
+//         <p>The current date is: {props.date}</p>
+//         { /* Change code above this line */ }
+//       </div>
+//     );
+//   };
+  
+//   class Calendar extends React.Component {
+//     constructor(props) {
+//       super(props);
+//     }
+//     render() {
+//       return (
+//         <div>
+//           <h3>What date is it?</h3>
+//           { /* Change code below this line */ }
+//           <CurrentDate date= {Date()} />
+//           { /* Change code above this line */ }
+//         </div>
+//       );
+//     }
+//   };
+
+// // CONFUSING PROPS HELP *********************
+// const List = (props) => {
+//     { /* Change code below this line */ }
+//     return <p>{props.tasks.join(", ")}</p>;
+//     { /* Change code above this line */ }
+//   };
+  
+//   class ToDo extends React.Component {
+//     constructor(props) {
+//       super(props);
+//     }
+//     render() {
+//       return (
+//         <div>
+//           <h1>To Do Lists</h1>
+//           <h2>Today</h2>
+//           { /* Change code below this line */ }
+//           <List tasks={['Walk', 'Cook', 'Bake' ]} />
+//           <h2>Tomorrow</h2>
+//           <List tasks={['Study', 'Code', 'Eat' ]} />
+//           { /* Change code above this line */ }
+//         </div>
+//       );
+//     }
+//   }
