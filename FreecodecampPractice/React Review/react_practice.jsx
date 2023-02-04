@@ -28,3 +28,22 @@
 // };
 // ReactDOM.render(<TypesOfFood/>, document.getElementById('challenge-node'))
 // // Change code below this line
+
+// Looking at UDEMY REVIEW OF deconstruction and ARROW FUNcTIons VS traditional functions
+
+
+// Change code below this line
+// class MyComponent extends React.Component {
+//     constructor(props){
+//       super(props);
+//     }
+//   render(){
+//     return(
+//       <div id="challenge-node" >
+//       <h1>My First React Component!</h1>
+//       </div>
+//     );
+//   }
+//   };
+//   ReactDOM.render(<MyComponent/>, document.getElementById("challenge-node"));
+  
