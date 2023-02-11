@@ -127,3 +127,112 @@
 //     }
 //   };
 
+// OVERRIDE DEFAULT PROPS
+// const Items = (props) => {
+//     return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>
+//   }
+  
+//   Items.defaultProps = {
+//     quantity: 0
+//   }
+  
+//   class ShoppingCart extends React.Component {
+//     constructor(props) {
+//       super(props);
+//     }
+//     render() {
+//       { /* Change code below this line */ }
+//       return <Items quantity={10}/>
+//       { /* Change code above this line */ }
+//     }
+//   };
+
+// Access props this.props
+// class App extends React.Component {
+//     constructor(props) {
+//       super(props);
+  
+//     }
+//     render() {
+//       return (
+//           <div>
+//               { /* Change code below this line */ }
+//               <Welcome name ="Randall"/>
+//               { /* Change code above this line */ }
+//           </div>
+//       );
+//     }
+//   };
+  
+//   class Welcome extends React.Component {
+//     constructor(props) {
+//       super(props);
+  
+//     }
+//     render() {
+//       return (
+//           <div>
+//             { /* Change code below this line */ }
+//             <p>Hello, <strong>{this.props.name}</strong>!</p>
+//             { /* Change code above this line */ }
+//           </div>
+//       );
+//     }
+//   };
+
+// class App extends React.Component {
+//     constructor(props) {
+//       super(props);
+  
+//     }
+//     render() {
+//       return (
+//           <div>
+//               { /* Change code below this line */ }
+//               <Welcome name ="Randall"/>
+//               { /* Change code above this line */ }
+//           </div>
+//       );
+//     }
+//   };
+  
+//   class Welcome extends React.Component {
+//     constructor(props) {
+//       super(props);
+  
+//     }
+//     render() {
+//       return (
+//           <div>
+//             { /* Change code below this line */ }
+//             <p>Hello, <strong>{this.props.name}</strong>!</p>
+//             { /* Change code above this line */ }
+//           </div>
+//       );
+//     }
+//   };
+
+// REVIEW USING PROPS IWTH STATELES FUNCTIONAL COMPONENTS
+class CampSite extends React.Component {
+//     constructor(props) {
+//       super(props);
+//     }
+//     render() {
+//       return (
+//         <div>
+//           <Camper/>
+//         </div>
+//       );
+//     }
+//   };
+//   // Change code below this line
+  
+//   const Camper = props => <p>{props.name}</p>
+  
+//   Camper.defaultProps = {
+//     name: "CamperBot"
+//   };
+  
+//   Camper.propTypes = {
+//     name: PropTypes.string.isRequired
+//   };
