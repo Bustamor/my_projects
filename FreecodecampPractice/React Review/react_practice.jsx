@@ -213,7 +213,7 @@
 //   };
 
 // REVIEW USING PROPS IWTH STATELES FUNCTIONAL COMPONENTS
-class CampSite extends React.Component {
+// class CampSite extends React.Component {
 //     constructor(props) {
 //       super(props);
 //     }
@@ -235,4 +235,23 @@ class CampSite extends React.Component {
   
 //   Camper.propTypes = {
 //     name: PropTypes.string.isRequired
+//   };
+
+// RENDER STATE IN UI
+// class MyComponent extends React.Component {
+//     constructor(props) {
+//       super(props);
+//       this.state = {
+//         name: 'freeCodeCamp'
+//       }
+//     }
+//     render() {
+//       return (
+//         <div>
+//           { /* Change code below this line */ }
+//           <h1>{this.state.name}</h1>
+//           { /* Change code above this line */ }
+//         </div>
+//       );
+//     }
 //   };
