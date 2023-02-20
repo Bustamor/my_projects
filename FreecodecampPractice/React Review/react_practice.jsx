@@ -257,3 +257,77 @@
 //   };
 
 // REACT DOM Interface
+
+// Render State in User Interface ANOTHER way
+// class MyComponent extends React.Component {
+//     constructor(props) {
+//       super(props);
+//       this.state = {
+//         name: 'freeCodeCamp'
+//       }
+//     }
+//     render() {
+//       // Change code below this line
+//       const name = this.state.name
+//       // Change code above this line
+//       return (
+//         <div>
+//           { /* Change code below this line */ }
+//           <h1>{name}</h1>
+//           { /* Change code above this line */ }
+//         </div>
+//       );
+//     }
+//   };
+
+// SET STATE with this.setState
+// class MyComponent extends React.Component {
+//     constructor(props) {
+//       super(props);
+//       this.state = {
+//         name: 'Initial State'
+//       };
+//       this.handleClick = this.handleClick.bind(this);
+//     }
+//     handleClick() {
+//       // Change code below this line
+//     this.setState({ name: "React Rocks!"})
+//       // Change code above this line
+//     }
+//     render() {
+//       return (
+//         <div>
+//           <button onClick={this.handleClick}>Click Me</button>
+//           <h1>{this.state.name}</h1>
+//         </div>
+//       );
+//     }
+//   };
+
+// BINDING THIS to class method
+// class MyComponent extends React.Component {
+//     constructor(props) {
+//       super(props);
+//       this.state = {
+//         text: "Hello"
+//       };
+//       // Change code below this line
+//       this.handleClick = this.handleClick.bind(this);
+//       // Change code above this line
+//     }
+//     handleClick() {
+//       this.setState({
+//         text: "You clicked!"
+//       });
+//     }
+//     render() {
+//       return (
+//         <div>
+//           { /* Change code below this line */ }
+//           <button onClick = {this.handleClick}>Click Me</button>
+//           { /* Change code above this line */ }
+//           <h1>{this.state.text}</h1>
+//         </div>
+//       );
+//     }
+//   };
