@@ -112,3 +112,30 @@ const HIGH_TEMPERATURES = {
   const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES;
   
   // Only change code above this line
+
+
+  DESTRUCTURING FROM OBJECTS WITHIN A FUNCTION (NESTED OBJECTS)
+  const LOCAL_FORECAST = {
+    yesterday: { low: 61, high: 75 },
+    today: { low: 64, high: 77 },
+    tomorrow: { low: 68, high: 80 }
+  };
+  
+  // Only change code below this line
+    
+  const {today: {high: highToday, low: lowToday}} = LOCAL_FORECAST
+  // Only change code above this 
+  
+
+  DESTRUCTURE USING REST ELEMENT
+
+  
+  function removeFirstTwo(list) {
+    // Only change code below this line
+    const [a,b, ...shorterList] = list; // Change this line
+    // Only change code above this line
+    return shorterList;
+  }
+  
+  const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  const sourceWithoutFirstTwo = removeFirstTwo(source);
