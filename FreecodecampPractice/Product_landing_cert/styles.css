@@ -5,6 +5,12 @@ body {
     /* background: linear-gradient(150deg, rgb(188, 207, 64), rgb(214, 54, 54), rgb(179, 0, 255)); */
 }
 
+.body {
+  background-color: coral;
+  opacity: .7;
+  
+}
+
 .logo {
     display: flex;
     height: 39px;
@@ -82,6 +88,6 @@ body {
   
   @media screen and (max-width: 1400px) {
     body {
-      background: linear-gradient(90deg, rgb(96, 196, 99), rgb(37, 74, 207), rgb(208, 125, 125)) ;
+      background: linear-gradient(90deg, rgb(13, 91, 16), rgb(37, 74, 207), rgb(208, 125, 125)) ;
     }
   }
